@@ -1,0 +1,29 @@
+{
+  "name": "oneapp-server-side",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "debug": "nodemon --debug server.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "connect"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.9.2",
+    "colors": "^1.0.3",
+    "cookie-session": "^1.1.0",
+    "errorhandler": "^1.2.2",
+    "express": "^4.10.2",
+    "jade": "^1.7.0",
+    "morgan": "^1.5.0",
+    "nodemon": "^1.2.1",
+    "path": "^0.4.9"
+  },
+  "devDependencies": {}
+}
