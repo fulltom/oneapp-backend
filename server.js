@@ -32,8 +32,9 @@ app.use(function(req,res,next) {
 // require('./models/connection')(function(){
 // 	console.log('Connection established to mongoDB');
 // });
-
-require('./controllers/main')(app);
+var data = require('./data');
+console.log(data)
+require('./controllers/main')(app, data);
 
 server.listen(app.get('port'), function(){
 	console.log('Your webapp is up on port '.green, app.get('port').toString().cyan);
